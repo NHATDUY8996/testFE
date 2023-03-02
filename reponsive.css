@@ -1,0 +1,580 @@
+
+
+/* mobile  */
+@media screen and (max-width: 599px) {
+    header{
+        justify-content: space-between;
+    }
+    .header__logo{
+        margin-left: 20px;
+    }
+    .nav__menu{
+        display: block;
+    }
+    .nav__pc{
+        display: none;
+    }
+    .content{
+        height: 500px;
+    }
+    .content h1{
+        font-size: 30px;
+    line-height: 40px;
+    }
+    .content span{
+        font-size: 12px;
+    line-height: 16px;
+    }
+    .content .title-content{
+        width: 70%;
+    }
+    .content button{
+        padding: 8px 12px;
+        font-size: 10px;
+    line-height: 18px;
+    margin-top: 10px;
+    }
+    .content .img_content{
+        margin-right: 0;
+        margin-top: 50px;
+        width: 30%;
+    }
+    .content .img_content img{
+        height: 500px;
+        width: 300px;
+    }
+    .content .title-content{
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    .title__product h1{
+        font-size: 38px;
+    line-height: 44px;
+    }
+    .title__product--img{
+        flex-wrap: wrap;
+    }
+    .title__product--img-item .img{
+        height: 350px;
+    }
+    .title__product--img-item .title{
+        font-size: 20px;
+    line-height: 28px;
+    }
+    .title__product--img-item .prince{
+        font-size: 13px;
+    line-height: 17px;
+    }
+    .title__product{
+        margin-top: 50px;
+        height: auto;
+    }
+    .tool{
+        margin-bottom: 80px;
+        height: 800px;
+    }
+    .tool .tool__info{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .tool .tool__info .text{
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .tool__info-title-detail{
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .tool .tool__info h1{
+        font-size: 34px;
+    line-height: 40px;
+    }
+    .tool__info-title-model-text{
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .tool__img img{
+        height: 900px;
+    }
+    .company{
+        margin: 0;
+        display: none;
+    }
+    .sayings{
+        height: 400px;
+    }
+    .sayings__img{
+        margin-bottom: 70px;
+        height: 400px;
+        width: 70%;
+    }
+    .sayings__img img{
+        height: 100%;
+    }
+    .sayings__title{
+        margin: 70px 20px 0 10px;
+    }
+    .sayings__title h1{
+        font-size: 18px;
+    line-height: 24px;
+    }
+    .sayings__title span{
+        font-size: 12px;
+    line-height: 18px;
+    }
+    .safety{
+        height: auto;
+    }
+    .safety_list{
+        flex-wrap: wrap;
+    }
+    .safety ul{
+        margin: 30px 30px 30px 0;
+    }
+    .safety li{
+        font-size: 12px;
+    }
+    .safety-title span{
+        font-size: 44px;
+    line-height: 50px;
+    padding: 20px;
+    }
+    .safety__silver h2{
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .safety .money .money-text{
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .safety__gold button, 
+    .safety__silver button{
+        padding: 12px 22px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .safety__silver{
+        height: 360px;
+    }
+    .safety__gold{
+        height: 440px;
+        margin-top: 50px;
+        margin-left: 0;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+    .col-3{
+
+    width: 100%;
+    }
+    .footer h2{
+        margin-top: 20px;
+        font-size: 20px;
+    line-height: 28px;
+    }
+    .footer li, .footer span{
+        font-size: 15px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    header{
+        justify-content: space-between;
+    }
+    .header__logo{
+        margin-left: 20px;
+    }
+    .nav__menu{
+        display: block;
+    }
+    .nav__pc{
+        display: none;
+    }
+    .content{
+        height: 450px;
+    }
+    .content h1{
+        font-size: 38px;
+    line-height: 44px;
+    }
+    .content span{
+        font-size: 12px;
+    line-height: 18px;
+    }
+    .content button{
+        padding: 10px 18px;
+        font-size: 12px;
+    line-height: 20px;
+    margin-top: 10px;
+    }
+    .content .img_content{
+        margin-right: 0;
+        margin-top: 50px;
+    }
+    .content .img_content img{
+        height: 500px;
+    }
+    .content .title-content{
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    .title__product h1{
+        font-size: 38px;
+    line-height: 44px;
+    }
+    .title__product--img-item .img{
+        height: 300px;
+    }
+    .title__product--img-item .title{
+        font-size: 18px;
+    line-height: 22px;
+    }
+    .title__product--img-item .prince{
+        font-size: 12px;
+    line-height: 17px;
+    }
+    .title__product{
+        margin-top: 44px;
+        height: 500px;
+    }
+    .tool{
+        margin-bottom: 80px;
+        height: 800px;
+    }
+    .tool .tool__info{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .tool .tool__info .text{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .tool .tool__info h1{
+        font-size: 44px;
+    line-height: 50px;
+    }
+    .tool__info-title-model-text{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .tool__img img{
+        height: 900px;
+    }
+    .company{
+        margin: 0;
+        display: none;
+    }
+    .sayings{
+        height: 500px;
+    }
+    .sayings__img{
+        margin-bottom: 70px;
+        height: 500px;
+    }
+    .sayings__img img{
+        height: 100%;
+    }
+    .sayings__title{
+        margin: 150px 50px 0 30px;
+    }
+    .sayings__title h1{
+        font-size: 25px;
+    line-height: 30px;
+    }
+    .sayings__title span{
+        font-size: 18px;
+    line-height: 26px;
+    }
+    .safety{
+        height: 1100px;
+    }
+    .safety_list{
+        flex-wrap: wrap;
+    }
+    .safety ul{
+        margin: 30px 50px 30px 0;
+    }
+    .safety li{
+        font-size: 14px;
+    }
+    .safety-title span{
+        font-size: 55px;
+    line-height: 60px;
+    padding: 20px;
+    }
+    .safety__silver h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .safety .money .money-text{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .safety__gold button, 
+    .safety__silver button{
+        padding: 14px 28px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .safety__silver{
+        height: 360px;
+    }
+    .safety__gold{
+        height: 440px;
+        margin-top: 50px;
+        margin-left: 0;
+    }
+    .footer h2{
+        font-size: 20px;
+    line-height: 28px;
+    }
+    .footer li, .footer span{
+        font-size: 15px;
+        line-height: 28px;
+    }
+}
+/* tablet */
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    .content{
+        height: 600px;
+    }
+    .content h1{
+        font-size: 50px;
+    line-height: 57px;
+    }
+    .content span{
+        font-size: 18px;
+    line-height: 25px;
+    }
+    .content button{
+        padding: 12px 24px;
+        font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+    }
+    .content .img_content{
+        margin-right: 0;
+        margin-top: 50px;
+    }
+    .content .img_content img{
+        height: 650px;
+    }
+    .content .title-content{
+        padding-left: 50px;
+        padding-right: 10px;
+    }
+    .title__product h1{
+        font-size: 50px;
+    line-height: 58px;
+    }
+    .title__product--img-item .img{
+        height: 400px;
+    }
+    .title__product--img-item .title{
+        font-size: 22px;
+    line-height: 30px;
+    }
+    .title__product--img-item .prince{
+        font-size: 14px;
+    line-height: 20px;
+    }
+    .title__product{
+        margin-top: 70px;
+        height: 600px;
+    }
+    .tool{
+        margin-bottom: 90px;
+
+    }
+    .tool .tool__info{
+        padding-right: 20px;
+        padding-left: 50px;
+    }
+    .tool .tool__info .text{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .tool .tool__info h1{
+        font-size: 50px;
+    line-height: 66px;
+    }
+    .tool__info-title-model-text{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .tool__img img{
+        height: 1100px;
+    }
+    .company{
+        margin: 0;
+        
+    }
+    .sayings{
+        height: 600px;
+    }
+    .sayings__img{
+        margin-bottom: 100px;
+        height: 600px;
+    }
+    .sayings__img img{
+        height: 100%;
+    }
+    .sayings__title{
+        margin: 200px 70px 0 40px;
+    }
+    .sayings__title h1{
+        font-size: 30px;
+    line-height: 40px;
+    }
+    .sayings__title span{
+        font-size: 18px;
+    line-height: 26px;
+    }
+    .safety{
+        height: 600px;
+    }
+    .safety ul{
+        margin: 30px 50px 30px 0;
+    }
+    .safety li{
+        font-size: 14px;
+    }
+    .safety-title span{
+        font-size: 55px;
+    line-height: 60px;
+    padding: 20px;
+    }
+    .safety__silver h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .safety .money .money-text{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .safety__gold button, 
+    .safety__silver button{
+        padding: 14px 28px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .safety__silver{
+        height: 360px;
+    }
+    .safety__gold{
+        height: 440px;
+    }
+    .footer h2{
+        font-size: 20px;
+    line-height: 28px;
+    }
+    .footer li, .footer span{
+        font-size: 15px;
+        line-height: 28px;
+    }
+}
+/* pc small */
+@media screen and (min-width: 1024px) and (max-width: 1365px){
+    .content{
+        height: 650px;
+    }
+    .content h1{
+        font-size: 54px;
+    line-height: 62px;
+    }
+    .content span{
+        font-size: 20px;
+    line-height: 29px;
+    }
+    .content button{
+        padding: 14px 28px;
+        font-size: 16px;
+    line-height: 22px;
+    margin-top: 10px;
+    }
+    .content .img_content{
+        padding-right: 0;
+        margin-top: 70px;
+    }
+    .content .title-content{
+        padding-left: 50px;
+        padding-right: 10px;
+    }
+    .content .img_content img{
+        height: 700px;
+    }
+    .title__product h1{
+        font-size: 54px;
+    line-height: 64px;
+    }
+    .title__product--img-item .img{
+        height: 440px;
+    }
+    .title__product--img-item .title{
+        font-size: 26px;
+    line-height: 36px;
+    }
+    .title__product--img-item .prince{
+        font-size: 16px;
+    line-height: 22px;
+    }
+    .title__product{
+        margin-top: 70px;
+        height: 650px;
+    }
+    .tool{
+        margin-bottom: 100px;
+    }
+    .tool .tool__info{
+        padding-right: 20px;
+        padding-left: 50px;
+    }
+    .tool .tool__info .text{
+        font-size: 19px;
+        line-height: 24px;
+    }
+    .tool .tool__info h1{
+        font-size: 58px;
+    line-height: 64px;
+    }
+    .tool__info-title-model-text{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .tool__img img{
+        height: 1100px;
+    }
+    .company{
+        margin: 0;
+    }
+    .sayings__img{
+
+    }
+    .sayings__img img{
+        height: 100%;
+    }
+    .sayings__title{
+        margin: 300px 70px 0 40px;
+    }
+    .sayings__title h1{
+        font-size: 34px;
+    line-height: 42px;
+    }
+    .sayings__title span{
+        font-size: 20px;
+    line-height: 28px;
+    }
+    .safety{
+        height: 700px;
+    }
+    .safety ul{
+        margin: 30px 100px 30px 0;
+    }
+    .safety-title span{
+        font-size: 58px;
+    line-height: 66px;
+    padding: 20px;
+    }
+}
